@@ -1,0 +1,2 @@
+# SimpleCarousel
+JS native carousel
