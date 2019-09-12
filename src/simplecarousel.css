@@ -1,0 +1,48 @@
+
+.SimpleCarousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.SimpleCarousel-container {
+    display: flex;
+    width: 100000px;
+}
+
+.SimpleCarousel-btnContainer {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SimpleCarousel-leftBtnContainer {
+    left: 5px;
+}
+
+.SimpleCarousel-rightBtnContainer {
+    right: 5px;
+}
+
+.SimpleCarousel-arrow {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50%;
+}
+
+.SimpleCarousel-left {
+    background-image: url(https://image.flaticon.com/icons/svg/126/126492.svg);
+}
+
+.SimpleCarousel-right {
+    background-image: url(https://image.flaticon.com/icons/svg/118/118740.svg);
+}
