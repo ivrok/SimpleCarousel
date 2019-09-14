@@ -1,15 +1,12 @@
 {
-  "name": "simplecarousel",
+  "name": "ivrok-simplecarousel",
   "version": "1.0.0",
   "description": "Simple js native carousel",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ivrok/SimpleCarousel"
-  },
+  "repository": "https://github.com/ivrok/SimpleCarousel",
   "keywords": [
     "native",
     "carousel",
@@ -17,8 +14,10 @@
     "vanil",
     "resizable"
   ],
-  "author": "ivrok",
-  "license": "MIT"
+  "homepage": "https://github.com/ivrok/SimpleCarousel",
+  "bugs": "https://github.com/ivrok/SimpleCarousel/issues",
+  "author": "ivrok <ivrokrambler@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.6.0",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
@@ -40,5 +39,6 @@
     "gulp-uglify": "^3.0.2",
     "gulp-watch": "^5.0.1",
     "require-dir": "^1.2.0"
-  }
+  },
+  "private": false
 }
