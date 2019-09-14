@@ -163,8 +163,6 @@ class SimpleCarousel {
 
                     var leftShift = this.SCUI.getObjects().originalChildren.length - rightChildren.length - this.SCUI.countOfViewSlides;
 
-                    console.log(leftShift);
-
                     this.$container.style['margin-left'] = (leftShift * this.slideWidth) * -1 + 'px';
 
                     var begin = leftShift;
