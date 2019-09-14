@@ -1,16 +1,24 @@
 {
   "name": "simplecarousel",
   "version": "1.0.0",
-  "description": "JS native carousel",
+  "description": "Simple js native carousel",
   "main": "index.js",
-  "directories": {
-    "example": "example"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivrok/SimpleCarousel"
+  },
+  "keywords": [
+    "native",
+    "carousel",
+    "simple",
+    "vanil",
+    "resizable"
+  ],
+  "author": "ivrok",
+  "license": "MIT"
   "dependencies": {
     "@babel/core": "^7.6.0",
     "@babel/plugin-proposal-class-properties": "^7.5.5",
