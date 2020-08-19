@@ -9,7 +9,9 @@ JS native carousel
 yarn ``yarn add ivrok-simplecarousel`` or npm ``npm i ivrok-simplecarousel``
 
 ## properties
+```
 time - int - delay time between scrolling,
 scrollItems - int - the count of slides,
 autoScroll - bool - scrolling automaticaly,
 autoScrollTime - 3000 time for scrolling animation
+```
