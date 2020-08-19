@@ -13,5 +13,5 @@ yarn ``yarn add ivrok-simplecarousel`` or npm ``npm i ivrok-simplecarousel``
 time - int - delay time between scrolling,
 scrollItems - int - the count of slides,
 autoScroll - bool - scrolling automaticaly,
-autoScrollTime - 3000 time for scrolling animation
+autoScrollTime - int - time for scrolling animation
 ```
